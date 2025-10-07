@@ -1,4 +1,4 @@
-KOmentar k HW
+# Komentar k HW
 1/nacteni z .TXT souboru
 2/prevod na mala pismena
 3/spocita cetnost vyskytu jednotl.znaku (mimo mezery a nove radky)

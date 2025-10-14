@@ -6,12 +6,12 @@ with open("data/alice.txt", mode="r", encoding="utf-8") as file:
 
 counts = {}
 
-for znak in text:
-    if znak != " " and znak != "\n":
-        if znak in counts:
-            counts[znak] += 1
+for character in text:
+    if character != " " and character != "\n":
+        if character in counts:
+            counts[character] += 1
         else:
-            counts[znak] = 1
+            counts[character] = 1
 
 
 counts = dict(sorted(counts.items()))
